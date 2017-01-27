@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html ng-app="iceberg">
+<html ng-app="icedef">
   <head>
     <meta charset='utf-8'>
-    <title>Iceberg</title>
+    <title>Icedef</title>
   </head>
   <body>
     <h1>Iceberg Data Analysis</h1>
-    <script src='dist/bundle.js'></script>
     <ul ng-controller="icebergIdController as icebergIdCtrl">
-      <li ng-repeat="icebergId in icebergIdCtrl.iceberg">{{icebergId}}</li>
+      <li ng-repeat="icebergIdx in icebergIdCtrl.icebergId">{{icebergIdx}}</li>
     </ul>
+    <script src="dist/bundle.js"></script>
   </body>
 </html>
